@@ -24,7 +24,7 @@ jobs:
                 gem-cache-
       - run:
           name: bundle install
-          command: bundle install --path vendor/bundle
+          command: bundle install
       - save_cache:
           key: gem-cache-{{ checksum "Gemfile.lock"}} 
           paths:
