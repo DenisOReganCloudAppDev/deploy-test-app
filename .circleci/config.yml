@@ -17,6 +17,7 @@ jobs:
       - image: cimg/ruby:3.1.2
     steps:
       - checkout
+      - run: ruby --version
       
 
       - restore_cache:
