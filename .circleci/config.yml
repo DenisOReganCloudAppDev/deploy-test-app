@@ -33,6 +33,6 @@ jobs:
       - run:
           name: set up database
           command: |
-            rails db:create
-            rails db:schema:load
+            rake db:create
+            rake db:schema:load
 
