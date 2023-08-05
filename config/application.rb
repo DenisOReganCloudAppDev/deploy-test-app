@@ -10,7 +10,7 @@ module DeployTestApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
-    config.hosts << "ec2-16-170-146-64.eu-north-1.compute.amazonaws.com"
+    #config.hosts << "ec2-16-170-146-64.eu-north-1.compute.amazonaws.com"
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
